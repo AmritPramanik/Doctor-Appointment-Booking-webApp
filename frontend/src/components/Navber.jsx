@@ -21,7 +21,7 @@ const Navber = () => {
           <li className='py-1'>Doctors</li>
           {/* <hr className='border-none outline-none h-0.5 bg-[#5f6fff] w-4/4 m-auto hidden'/> */}
         </NavLink>
-        <NavLink to={'/my-appointments'}>
+        <NavLink to={'/appointment'}>
           <li className='py-1'>Appointment</li>
           {/* <hr className='border-none outline-none h-0.5 bg-[#5f6fff] w-3/3 m-auto hidden'/> */}
         </NavLink>
