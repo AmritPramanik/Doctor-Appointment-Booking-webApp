@@ -10,9 +10,9 @@ const Navber = () => {
   const [token,setToken] = useState(true);
 
   return (
-    <div className='flex items-center justify-between px-15 py-5 mb-5 '>
+    <div className='flex  items-center justify-between py-5 mb-5 '>
       <img className='w-40 cursor-pointer' src={assets.logo} alt="" />
-      <ul className='hidden md:flex items-start gap-10 px-12 py-3 rounded-[30px] shadow-[0_0_30px_0_rgba(0,0,0,0.1)] font-medium'>
+      <ul className='hidden lg:flex items-start gap-10 px-12 py-2.5 text-[14px] rounded-[30px] shadow-[0_0_30px_0_rgba(0,0,0,0.1)] font-medium'>
         <NavLink to={'/'}>
           <li className='py-1 '>Home</li>
           <hr className='border-none outline-none h-0.5 bg-[#5f6fff] w-3/3 m-auto hidden'/>
