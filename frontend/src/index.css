@@ -9,6 +9,16 @@
 .active li{
    @apply text-blue-600 ;
 }
+.primary{
+   @apply bg-[#5f6fff];
+}
+.grid-cols-auto{
+  @apply grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(200px,1fr))];
+}
 /* .active hr{
     @apply block
 } */
+
+::-webkit-scrollbar{
+    @apply hidden;
+}
