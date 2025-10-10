@@ -27,7 +27,7 @@ const TopDoctors = () => {
           </div>
         ))}
       </div>
-      <button onClick={()=>{ navigate('/doctors'); scrollTo(0,0)}} className="primary font-medium text-white px-12 py-2.5 rounded-full mt-8 cursor-pointer hover:scale-105 transition-all duration-300">more</button>
+      <button onClick={()=>{ navigate('/doctors'); scrollTo(0,0)}} className="primary text-xl text-white px-12 py-2 rounded-full mt-8 cursor-pointer shadow-[0_3px_5px_rgba(0,0,0,0.2)] hover:scale-105 transition-all duration-300">more</button>
     </div>
   );
 };
