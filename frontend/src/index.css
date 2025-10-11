@@ -12,8 +12,11 @@
 .primary{
    @apply bg-[#5f6fff];
 }
+.primary1{
+   @apply bg-blue-200;
+}
 .primary2{
-   @apply bg-[#6d9bfe];
+   @apply bg-[#82aaff];
 }
 .grid-cols-auto{
   @apply grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(200px,1fr))];

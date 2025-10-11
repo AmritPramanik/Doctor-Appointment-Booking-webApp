@@ -27,17 +27,17 @@ const Doctors = () => {
       {/* <p className="text-[18px] font-semibold">Browse through the doctors specialist.</p> */}
       <div className="flex flex-col sm:flex-row items-start gap-6 mt-6">
         <div className="flex flex-col gap-2 text-sm text-gray-600">
-          <p onClick={() => navigate("/doctors/General physician")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary2 text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
+          <p onClick={() => navigate("/doctors/General physician")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
             General physician</p>
-          <p onClick={() => navigate("/doctors/Gynecologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary2 text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
+          <p onClick={() => navigate("/doctors/Gynecologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
             Gynecologist</p>
-          <p onClick={() => navigate("/doctors/Dermatologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary2 text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
+          <p onClick={() => navigate("/doctors/Dermatologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
             Dermatologist</p>
-          <p onClick={() => navigate("/doctors/Pediatricians")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary2 text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
+          <p onClick={() => navigate("/doctors/Pediatricians")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
             Pediatricians</p>
-          <p onClick={() => navigate("/doctors/Neurologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary2 text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
+          <p onClick={() => navigate("/doctors/Neurologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">
             Neurologist</p>
-          <p onClick={() => navigate("/doctors/Gastroenterologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary2 text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">Gastroenterologist</p>
+          <p onClick={() => navigate("/doctors/Gastroenterologist")} className="w-[94vw] sm:w-auto pl-3 py-2 pr-16 border primary text-white rounded cursor-pointer hover:scale-105 transition-all duration-300">Gastroenterologist</p>
         </div>
         <div className="w-full grid grid-cols-auto gap-4 gap-y-6 ">
           {filterDoc.map((item, index) => (
